@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño-Pagina-Web</title>
+</head>
+<body>
+  <head>
+    <style>
+      header {
+        background-color: rgb(6, 182, 109);
+        padding: 10px;
+      }
+      
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      nav li {
+        display: inline-block;
+      }
+      
+      nav a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      nav a:hover {
+        background-color: rgb(3, 72, 43);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="pag1.html">Inicio</a></li>
+          <li><a href="alum.html">Alumno</a></li>
+          <li><a href="profe.html">Profesores</a></li>
+          <li><a href="#">Administradores</a></li>
+        </ul>
+      </nav>
+    </header>
+<head>
+</head>
+<head>
+  <style>
+      .cuadrado {
+          width: 400px;
+          height: 400px;
+          background-color: rgb(6, 182, 109);
+          position: relative;
+          top: 100px;
+          left: 550px;
+          border: 2px solid black;
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+      }
+  </style>
+</head>
+<body>
+  <div class="cuadrado"></div>
+</body>
+<style>
+  .posicionado {
+      position: relative;
+      top: -200px;
+      left: 650px;
+      color: #ffffff;
+  }
+  .posicionado2 {
+      position: relative;
+      top: -200px;
+      left: 650px;
+  }
+  .posicionado3 {
+      position: relative;
+      top: -200px;
+      left: 550px;
+      color: #ffffff;
+  }
+  .posicionadotitulo {
+      color: #ffffff;
+      position: relative;
+      top: -250px;
+      left: 600px;
+  }
+  .posicionadoboton {
+      position: relative;
+      top: -200px;
+      left: 625px;
+      color: #000000;
+      font-size: 15px;
+  }
+</style>
+<script>
+  function alumn() {
+      window.location.href ="alum.html";
+  }
+  function profe() {
+      window.location.href ="profe.html";
+  }
+</script>
+<form>
+  <label class="posicionadotitulo" style="font-size: 30px;">Ingrese.</label>
+  <label for="rut" class="posicionado3">Nombre:</label>
+  <input class="posicionado3" type="text" id="nom" name="nom" style="color: #111;">
+  <br><br>
+  <label for="rut" class="posicionado">RUT:</label>
+  <input class="posicionado2" type="text" id="rut" name="rut" title="Ingresa un RUT válido sin puntos y con guion">
+  <br><br>
+  <button ondblclick="alumn()" class="posicionadoboton">Ingreso Alumnos</button>
+  <button ondblclick="profe()" class="posicionadoboton">Ingreso Profesores</button> 
+</form>
+<style>
+  body {
+    background-color: rgb(3, 72, 43);
+  }
+</style>
+</body>
+</html>
